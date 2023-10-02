@@ -1,4 +1,4 @@
-<h1>Express project with Typescript boilerplate.</h1>
+<h1>Express/Typescript project boilerplate.</h1>
 <h3>Dependencies</h3>
 <p>
 cors -> ^2.8.5<br>
