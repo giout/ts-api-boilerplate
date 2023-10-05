@@ -6,7 +6,7 @@ const app = express()
 const port = process.env.PORT
 
 app.use(cors({
-    origin: ['*']
+    origin: '*'
 }))
 
 app.listen(port, () => {
