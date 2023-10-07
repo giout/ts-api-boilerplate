@@ -1,14 +1,8 @@
 import 'dotenv/config'
-import express from 'express'
-import cors from 'cors'
+import app from './config/app'
 
-const app = express()
-const port = process.env.PORT
-
-app.use(cors({
-    origin: '*'
-}))
+const port = process.env.PORT || 4000
 
 app.listen(port, () => {
-    console.log('Port ->', port)
+    console.log('Listening on port', port)
 })
